@@ -18,6 +18,7 @@ The root CMake project discovers exercises via `add_subdirectory()`.
 # Exercises
 
 1 | Bounded Queue with Backpressure
+2 | Discrete Event Simulator
 
 ## Build and test
 

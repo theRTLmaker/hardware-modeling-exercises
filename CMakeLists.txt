@@ -12,3 +12,4 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 include(Warnings)
 
 add_subdirectory(1_bounded_queue_with_backpressure)
+add_subdirectory(2_discrete_event_simulator)

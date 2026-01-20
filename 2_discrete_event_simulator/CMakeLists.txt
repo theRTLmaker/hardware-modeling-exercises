@@ -1,0 +1,11 @@
+add_library(kata01_discrete_event_sim INTERFACE)
+target_include_directories(kata01_discrete_event_sim INTERFACE
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+add_executable(test_discrete_event_sim
+  tests/test_discrete_event_sim.cpp
+)
+target_link_libraries(test_discrete_event_sim PRIVATE kata01_discrete_event_sim)
+
+add_test(NAME kata01_discrete_event_sim COMMAND test_discrete_event_sim)
